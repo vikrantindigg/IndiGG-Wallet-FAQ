@@ -42,7 +42,7 @@ export default function PostPage({
         description={frontMatter.description}
       />
       <Header name={globalData.name} />
-      <article className="px-6 md:px-0">
+      {/* <article className="px-6 md:px-0">
         <header>
           <h1 className="text-3xl md:text-5xl dark:text-white text-center mb-12">
             {frontMatter.title}
@@ -50,12 +50,12 @@ export default function PostPage({
           {frontMatter.description && (
             <p className="text-xl mb-4">{frontMatter.description}</p>
           )}
-        </header>
-        <main>
+        </header> */}
+        {/* <main>
           <article className="prose dark:prose-dark">
             <MDXRemote {...source} components={components} />
           </article>
-        </main>
+        </main> */}
         {/* <div className="grid md:grid-cols-2 lg:-mx-24 mt-12">
           {prevPost && (
             <Link href={`/posts/${prevPost.slug}`}>
@@ -84,7 +84,7 @@ export default function PostPage({
             </Link>
           )}
         </div> */}
-      </article>
+      {/* </article> */}
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
         variant="large"
