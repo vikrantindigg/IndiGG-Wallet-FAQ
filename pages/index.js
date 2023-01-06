@@ -50,7 +50,6 @@ export default function Index({ posts, globalData }) {
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
         </h1>
-        <p className="uppercase mb-3 font-bold opacity-60">
           <p className="uppercase mb-3 font-bold opacity-60">
             {`What is IndiGG?`}
           </p>
@@ -98,7 +97,6 @@ export default function Index({ posts, globalData }) {
           <p className="uppercase mb-3 font-bold opacity-60">{`As a member of IndiGG, you can earn rewards by playing games and participating in guild activities called ‘Quests’. The rewards you earn will depend on the games you play and the activities you participate in.`}</p>
           <p className="uppercase mb-3 font-bold opacity-60">{`Can I withdraw the rewards I earn with IndiGG?`}</p>
           <p className="uppercase mb-3 font-bold opacity-60">{`Yes, you can withdraw the rewards you earn with IndiGG to another wallet or convert it into INR. To do so, you will need to connect a 3rd party wallet (like Metamask) or your bank details to your account. You can then withdraw your rewards to your wallet or chosen financial institution.`}</p>
-        </p>
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
