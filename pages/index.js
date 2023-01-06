@@ -11,7 +11,7 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-      {/* <SEO title={globalData.name} description={globalData.blogTitle} /> */}
+      <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       {/* <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
@@ -51,49 +51,51 @@ export default function Index({ posts, globalData }) {
           {globalData.blogTitle}
         </h1>
         <p className="uppercase mb-3 font-bold opacity-60">
-          {`What is IndiGG?{'/n}
-
+          <p className="uppercase mb-3 font-bold opacity-60">
+            {`What is IndiGG?`}
+          </p>
+          {`
           IndiGG is India’s biggest gaming guild for gamers to discover the future of gaming and embark on a journey into virtual worlds with digital property rights and earning rights. Alongside, IndiGG is also actively partnering with the best gaming studios globally and locally and playing a crucial role in their foray into the Indian market to build from the ground up with high-quality Web3 games.
 
-          ### How do I install IndiGG Wallet?
+          ${<p>How do I install IndiGG Wallet?</p>}
 
           The IndiGG Wallet is available for free on the Google Play Store. Download it here: [[System Requirements?]]
 
-          ### How do I get started using IndiGG Wallet?
+          ${<p>How do I get started using IndiGG Wallet?</p>}
 
           You need to sign-up for a free account and be a resident of India. Once you have verified your identity through KYC, you can use the IndiGG Wallet. Once your wallet is set up, you can start receiving IndiGG rewards, and receiving and sending payments with your cryptocurrencies.
 
-          ### What is KYC?
+          ${<p>What is KYC?</p>}
 
           KYC means “Know Your Customer” or sometimes “Know Your Client,” which refers to a procedure used by banks and other financial organizations to collect contact and identification information from existing and new clients. Its goal is to stop account abuse as well as fraud, money laundering, and other illegal conduct.
 
-          ### What is a crypto wallet?
+          ${<p>What is a crypto wallet?</p>}
 
           A crypto wallet is a digital tool that allows you to store, manage, and interact with cryptocurrencies like Bitcoin, Ethereum, and others. It provides a secure way to store your digital assets and allows you to send and receive payments using your cryptocurrency.
 
-          ### Is it safe to use IndiGG Wallet?
+          ${<p>Is it safe to use IndiGG Wallet?</p>}
 
           Protecting the data of gamers is our top priority. It is important to take proper precautions to protect your digital assets. This includes using strong passwords and enabling two-factor authentication.
 
-          ### How do I add funds to my wallet?
+          ${<p>How do I add funds to my wallet?</p>}
 
           Currently, there are a few ways to add funds to your wallet:* Receive funds from another user by tapping ‘Receive’ and sharing your unique QR code or wallet address.* Redeem rewards by completing Quests or Missions and tapping ‘Redeem.’
 
           - You can buy digital currencies from exchanges or from other users using traditional currency or other cryptocurrencies.
 
-          ### How do I send payments using IndiGG Wallet?
+          ${<p>How do I send payments using IndiGG Wallet?</p>}
 
           Currently, you are only able to send tokens to other IndiGG Wallets. To send payments, tap ‘Send’. You will need the recipient's telephone number and the number of tokens you wish to send. Simply enter this information into your wallet and confirm the transaction. The payment will be processed on the blockchain, and the funds will be transferred to the recipient's wallet.
 
-          ### Are there any fees associated with using IndiGG Wallet?
+          ${<p>Are there any fees associated with using IndiGG Wallet?</p>}
 
           Yes, there may be fees associated with sending or receiving digital currencies. These fees typically come in the form of network fees, which are charged for processing transactions on the blockchain.
 
-          ### Do I need a crypto wallet to join IndiGG?
+          ${<p>Do I need a crypto wallet to join IndiGG?</p>}
 
           No. When you create an account with IndiGG, we provide you with a wallet address on the Polygon blockchain. Any rewards you receive from completing Quests and activities are deposited into your IndiGG wallet.
 
-          ### Do I need cryptocurrencies to use IndiGG Wallet?
+          ${<p>Do I need cryptocurrencies to use IndiGG Wallet?</p>}
 
           No. The wallet is free to use and is the way you can earn rewards for being part of the IndiGG community.
 
