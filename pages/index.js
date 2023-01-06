@@ -47,7 +47,7 @@ export default function Index({ posts, globalData }) {
         </ul>
       </main> */}
       <main className="w-full">
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">
+        <h1 style={{marginTop:10}} className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
         </h1>
           <p className="uppercase mb-3 font-bold opacity-60">
