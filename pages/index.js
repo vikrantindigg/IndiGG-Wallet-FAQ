@@ -51,7 +51,7 @@ export default function Index({ posts, globalData }) {
           {globalData.blogTitle}
         </h1>
         <p className="uppercase mb-3 font-bold opacity-60">
-          {`### What is IndiGG?
+          {`What is IndiGG?{'/n}
 
           IndiGG is India’s biggest gaming guild for gamers to discover the future of gaming and embark on a journey into virtual worlds with digital property rights and earning rights. Alongside, IndiGG is also actively partnering with the best gaming studios globally and locally and playing a crucial role in their foray into the Indian market to build from the ground up with high-quality Web3 games.
 
